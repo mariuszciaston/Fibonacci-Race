@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1. Fibonacci iteration exact number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <p class="blue">1. Fibonacci iteration exact number</p>
+    <p>Open console :-)</p>
+    <script>
+        function fibonacci(n) {
+
+            let first = 0;
+            let second = 1;
+
+            if (n == 0) console.log('fibonacci' + '(' + 0 + ')', "=", first);
+            if (n == 1) console.log('fibonacci' + '(' + 1 + ')', "=", second);
+
+            for (let i = 2; i <= n; i++) {
+                let next = first + second;
+
+                if (n == i) console.log('fibonacci' + '(' + i + ')', "=", next);
+
+                first = second;
+                second = next;
+            }
+        }
+
+        fibonacci(32);
+    </script>
+</body>
+
+</html>
