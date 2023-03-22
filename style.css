@@ -1,0 +1,37 @@
+body {
+	font-size: 16px;
+	font-family: sans-serif;
+	margin: 16px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	padding: 0 0 16px 0;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+.blue {
+	color: blue;
+}
+
+.orange {
+	color: orangered;
+}
+
+.violet {
+	color: blueviolet;
+	font-weight: bold;
+}
+
+p {
+	color: grey;
+}
